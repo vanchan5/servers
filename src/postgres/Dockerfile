@@ -1,4 +1,4 @@
-FROM node:22.12-alpine AS builder
+FROM registry.cn-shenzhen.aliyuncs.com/vanchans/node/node:22.12-alpine AS builder
 
 COPY src/postgres /app
 COPY tsconfig.json /tsconfig.json
